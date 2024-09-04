@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color:rgba(255, 248, 236, 1);
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:  rgba(172, 180, 252, 1);
+}
+
+.b {
+    display: flex;
+    Justify-content: space-between;
+
+}
+
+.button {
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 24px;
+    border-radius: 10px;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-top: 5px solid rgba(51, 51, 51, 1);
+    border-bottom: 5px solid rgba(51, 51, 51, 1);
+    padding: 25px 100px 25px 95px;
+  
+}
+
+.nav-link {
+
+    font-size: 24px;
+    color: rgba(50, 42, 148, 1);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(88, 83, 140, 1);
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    Justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 10px;
+
+}
+
+main{
+    background-color: rgba(255, 248, 236, 1);
+}
+
+
+article {
+    background-color: rgba(229, 229, 229, 1);
+    padding: 20px;
+    width: 400px;
+    margin:20px ;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgba(172, 180, 252, 1);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(255, 248, 236, 1);
+    padding:20px ;
+}
+
+footer a {
+    justify-content: flex-end;
+    margin-right:50px ;
+    margin-left:50px ;
+
+    
+}
+
+footer p {
+    display:flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color:rgba(51, 51, 51, 1);
+
+}
+
+h2 {
+    Text-align: center;
+    color:rgba(248, 188, 34, 1);
+
+}
+
+
+.info p {
+
+    text-align: center;
+
+}
+
+.info article {
+
+    text-align: center;
+}
